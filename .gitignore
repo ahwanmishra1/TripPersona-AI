@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+venv/
+
+# Env files (IMPORTANT)
+.env
+
+# OS files
+.DS_Store
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Secrets / cache
+*.sqlite3
