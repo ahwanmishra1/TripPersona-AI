@@ -32,7 +32,8 @@ st.markdown("""
 .hero-tagline {
     font-size: 1.2rem;
     color: #ffb08f;
-    margin-top: 0.5rem;
+    margin-top: -0.5rem;
+    margin-bottom: 0.5rem;
 }
 .hero-sub {
     color: #c9c9cf;
@@ -111,10 +112,8 @@ input:focus, textarea:focus {
 # HERO
 st.markdown("""
 <h1 class="hero-title">TripPersona</h1>
-<div class="hero-tagline">One grounded trip. Four personalities.</div>
-<div class="hero-sub">
-Plan your trip as a planner, chaotic explorer, local insider, or foodie.
-</div>
+<div class="hero-tagline">AI Travel Planner with personalities.</div>
+
 """, unsafe_allow_html=True)
 
 # INPUTS
